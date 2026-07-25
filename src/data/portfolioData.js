@@ -168,7 +168,7 @@ export const projects = [
       "An intelligent loan risk assessment platform powered by AI and machine learning to evaluate creditworthiness and predict default probabilities.",
     tech: ["TypeScript", "AI", "Machine Learning", "FinTech"],
     github: "https://github.com/KartikKhandka/LoanShield-AI-Platform",
-    demo: "#",
+    demo: "https://loanshield-platform.vercel.app/",
     iconKey: "ShieldCheck",
   }
 ];
