@@ -173,7 +173,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Bluestock Mutual Fund Analytics",
+    title: "Mutual Fund Analytics",
     categories: ["Data Science", "Fullstack"],
     description:
       "A comprehensive data analytics platform and automated ETL pipeline for the Indian mutual fund industry, processing large financial datasets to deliver actionable insights and data quality reports.",
