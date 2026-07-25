@@ -1,0 +1,29 @@
+import { useState, useEffect } from 'react';
+
+export function useActiveSection(sectionIds) {
+  const [activeSection, setActiveSection] = useState('home');
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.4, rootMargin: '-80px 0px -40% 0px' }
+    );
+
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, [sectionIds]);
+
+  return activeSection;
+}
+
+export default useActiveSection;
