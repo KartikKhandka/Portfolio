@@ -146,7 +146,7 @@ export const projects = [
       "An enterprise-grade AI Visual Intelligence Platform using Computer Vision, OCR, RAG, Vector Search, and LLMs to understand home appliances, identify brands and models, and retrieve manuals.",
     tech: ["TypeScript", "Python", "Docker", "Redis", "Machine Learning", "OCR"],
     github: "https://github.com/KartikKhandka/VisionIQ",
-    demo: "https://vision-iq-nine.vercel.app/",
+    demo: "https://myvisioniq.vercel.app/",
     iconKey: "Cpu",
   },
   {
