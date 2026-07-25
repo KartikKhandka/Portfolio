@@ -170,7 +170,19 @@ export const projects = [
     github: "https://github.com/KartikKhandka/LoanShield-AI-Platform",
     demo: "https://loanshield-platform.vercel.app/",
     iconKey: "ShieldCheck",
+  },
+  {
+    id: 4,
+    title: "Bluestock Mutual Fund Analytics",
+    categories: ["Data Science", "Fullstack"],
+    description:
+      "A comprehensive data analytics platform and automated ETL pipeline for the Indian mutual fund industry, processing large financial datasets to deliver actionable insights and data quality reports.",
+    tech: ["Python", "Pandas", "Streamlit", "SQLite", "Power BI", "REST APIs", "Data Analytics", "ETL Pipelines"],
+    github: "https://github.com/KartikKhandka/CapstoneProject",
+    demo: "https://mutualfund-analysis.streamlit.app/",
+    iconKey: "BarChart",
   }
+
 ];
 
 export const projectCategories = ["All", "AI/ML", "Fullstack", "Frontend"];
