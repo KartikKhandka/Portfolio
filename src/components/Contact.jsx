@@ -186,7 +186,6 @@ export default function Contact() {
                       value={form.name}
                       onChange={handleChange('name')}
                       required
-                      placeholder="John Doe"
                       className="w-full px-4 py-3 rounded-lg border-2 border-neutral-900 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 text-sm font-mono focus:outline-none"
                     />
                   </div>
@@ -199,7 +198,6 @@ export default function Contact() {
                       value={form.email}
                       onChange={handleChange('email')}
                       required
-                      placeholder="john@example.com"
                       className="w-full px-4 py-3 rounded-lg border-2 border-neutral-900 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 text-sm font-mono focus:outline-none"
                     />
                   </div>
