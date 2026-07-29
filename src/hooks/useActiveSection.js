@@ -12,7 +12,7 @@ export function useActiveSection(sectionIds) {
           }
         });
       },
-      { threshold: 0.4, rootMargin: '-80px 0px -40% 0px' }
+      { threshold: 0.1, rootMargin: '-80px 0px -40% 0px' }
     );
 
     sectionIds.forEach((id) => {
